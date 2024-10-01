@@ -5,6 +5,7 @@ module.exports = (sequelize, DataTypes)=>
     var Books = sequelize.define('books',
 
         {
+            
             id:{
                 type: DataTypes.BIGINT(20),
                 primaryKey: true,
